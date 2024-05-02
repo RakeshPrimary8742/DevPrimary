@@ -14,6 +14,8 @@ echo "Below is my EC2"
 aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
 
 
+echo "This is the practice line added"
+
 
 
 
