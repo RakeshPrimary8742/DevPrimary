@@ -17,6 +17,10 @@ echo "Below is Ec2 status"
 aws ec2 describe-instance-status | jq '.InstanceStatuses[].InstanceState.Name'
 
 
+echo "This is for practice"
+
+
+
 
 
 
