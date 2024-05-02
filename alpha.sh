@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+
+echo "Below is storage"
+aws s3 ls
+
+
+echo "Below is IAM user"
+
+aws iam list-users | jq '.Users[].UserName'
+
+
+
+
+
+
